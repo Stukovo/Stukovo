@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+# Markdown
 
-You can use the [editor on GitHub](https://github.com/Stukovo/Stukovo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Headers:
 
-### Markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Alternatively, for H1 and H2, an underline-ish style:
 
-```markdown
-Syntax highlighted code block
+Alt-H1
+======
 
-# Header 1
-## Header 2
-### Header 3
+Alt-H2
+------
 
-- Bulleted
-- List
+(More "#" symbols, dimmer and smaller the words are. Less underlines, smaller and dimmer the words are.)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+Lists:
 
-[Link](url) and ![Image](src)
-```
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+   Some text that should be aligned with the above item.
 
-### Jekyll Themes
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Stukovo/Stukovo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+(Numbers of a list can be autonumbered. )
 
-### Support or Contact
+Links:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[I'm an inline-style link](https://www.google.com)
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself]
+
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <http://www.example.com> and sometimes 
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+
+("[]", "<>" and links at the beginning of a sentence will be counted as links.)
+
+
+Tables:
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+(Use the "|","-" and ":" symbols to draw the frame of tables.)
